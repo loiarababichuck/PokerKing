@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="poker_black">#0B0B0B</color>
+    <color name="poker_white">#F5F5F5</color>
+    <color name="poker_red">#C1121F</color>
+    <color name="poker_red_dark">#8F0F1A</color>
+    <color name="poker_card">#171717</color>
+    <color name="poker_line">#2B2B2B</color>
+    <color name="green_gain">#F5F5F5</color>
+    <color name="red_loss">#C1121F</color>
+    <color name="card_background">#F5F5F5</color>
+</resources>

@@ -1,0 +1,302 @@
+# CRIAÇÃO DO PROJETO DO APLICATIVO ANDROID
+
+Quero desenvolver um aplicativo mobile para Android como projeto de uma disciplina de Programação.
+
+A ideia do aplicativo que quero desenvolver é:
+
+> **[ESCREVA AQUI A IDEIA DO SEU APLICATIVO]**
+
+A partir dessa ideia, transforme minha proposta em um **projeto completo de aplicativo Android**, pensando em algo interessante, moderno e que possa ser desenvolvido por um estudante utilizando ferramentas de Inteligência Artificial como apoio.
+
+O aplicativo será desenvolvido utilizando:
+
+* Android Studio
+* Java
+* XML
+* Android SDK
+* GitHub Copilot
+
+---
+
+# OBJETIVO
+
+Analise a ideia que forneci e desenvolva uma proposta completa para o aplicativo.
+
+Não fique limitado apenas ao que descrevi.
+
+**Expanda a ideia quando fizer sentido**, sugerindo funcionalidades, telas, interações e recursos que tornem o aplicativo mais interessante e completo.
+
+Ao mesmo tempo, mantenha o projeto coerente com um desenvolvimento realizado durante **4 aulas de programação**, considerando que o estudante utilizará o ChatGPT para planejamento e o GitHub Copilot como auxílio na implementação.
+
+---
+
+# DOCUMENTAÇÃO
+
+Gere uma documentação completa em formato Markdown (`.md`) que será utilizada como especificação do projeto.
+
+O arquivo deverá se chamar:
+
+`PROJETO_APP_ANDROID.md`
+
+A documentação deve conter:
+
+## 1. Visão geral
+
+* Nome do aplicativo
+* Descrição
+* Objetivo
+* Problema que resolve
+* Público-alvo
+* Diferenciais da ideia
+
+## 2. Conceito do aplicativo
+
+Explique detalhadamente como o aplicativo funcionará e qual será a experiência do usuário.
+
+## 3. Funcionalidades
+
+Defina todas as funcionalidades do aplicativo.
+
+Organize em:
+
+### Funcionalidades principais
+
+As funcionalidades essenciais para a proposta.
+
+### Funcionalidades complementares
+
+Recursos que tornam o aplicativo mais interessante.
+
+### Possíveis funcionalidades futuras
+
+Ideias que poderiam ser implementadas posteriormente.
+
+Não é necessário limitar artificialmente a quantidade de funcionalidades. Analise a proposta e defina um escopo adequado para quatro aulas.
+
+## 4. Telas
+
+Defina todas as telas necessárias.
+
+Para cada tela informe:
+
+* Nome
+* Objetivo
+* Componentes
+* Informações exibidas
+* Campos
+* Botões
+* Ações
+* Comportamentos
+* Navegação
+
+## 5. Experiência do usuário
+
+Descreva como será a utilização do aplicativo desde o momento em que o usuário o abre até a realização das principais funcionalidades.
+
+## 6. Fluxo de navegação
+
+Apresente um mapa das telas.
+
+Exemplo:
+
+```text
+Tela Inicial
+    │
+    ├── Nova atividade
+    │       └── Cadastro
+    │              └── Confirmação
+    │
+    ├── Minhas atividades
+    │       └── Detalhes
+    │
+    └── Configurações
+```
+
+## 7. Interface
+
+Descreva detalhadamente a interface de cada tela.
+
+Defina os componentes Android necessários, como:
+
+* TextView
+* EditText
+* Button
+* ImageView
+* Spinner
+* CheckBox
+* RadioButton
+* RecyclerView
+* CardView
+* ScrollView
+* Toolbar
+* BottomNavigationView
+* Dialog
+* etc.
+
+Utilize os componentes que fizerem sentido para o aplicativo.
+
+## 8. Modelo de dados
+
+Identifique todas as informações necessárias para o funcionamento do aplicativo.
+
+Apresente tabelas com:
+
+| Campo | Tipo | Obrigatório | Descrição |
+| ----- | ---- | ----------- | --------- |
+
+Caso existam entidades relacionadas, explique os relacionamentos.
+
+## 9. Armazenamento
+
+Defina a estratégia de armazenamento mais adequada ao projeto.
+
+Considere possibilidades como:
+
+* Memória
+* SharedPreferences
+* SQLite
+* Room
+* Arquivos locais
+* APIs externas, caso façam sentido
+
+Explique a escolha.
+
+## 10. Regras de negócio
+
+Defina todas as regras necessárias para o funcionamento correto do aplicativo.
+
+## 11. Validações
+
+Defina as validações necessárias para os campos e ações do usuário.
+
+Apresente:
+
+| Campo/Ação | Regra | Mensagem |
+| ---------- | ----- | -------- |
+
+## 12. Tratamento de erros
+
+Defina como o aplicativo deverá reagir a situações inesperadas ou dados inválidos.
+
+## 13. Recursos visuais
+
+Identifique imagens, ícones, ilustrações ou outros recursos necessários.
+
+Quando possível, indique alternativas que possam ser utilizadas sem depender de recursos pagos.
+
+## 14. Estrutura do projeto Android
+
+Defina a estrutura sugerida do projeto:
+
+```text
+app/
+├── java/
+├── res/
+│   ├── layout/
+│   ├── drawable/
+│   ├── mipmap/
+│   └── values/
+└── AndroidManifest.xml
+```
+
+Indique as principais Activities, classes, layouts e outros arquivos necessários.
+
+## 15. Arquitetura
+
+Sugira uma organização adequada para o código Java.
+
+Não utilize arquitetura excessivamente complexa sem necessidade.
+
+Explique a responsabilidade das principais classes.
+
+## 16. Plano de desenvolvimento em 4 aulas
+
+Divida o projeto em quatro etapas progressivas.
+
+### Aula 1 — Estrutura e interface
+
+Defina exatamente o que deverá ser desenvolvido.
+
+### Aula 2 — Funcionalidades
+
+Defina as funcionalidades que deverão ser implementadas.
+
+### Aula 3 — Dados e recursos
+
+Defina armazenamento, integrações, validações e recursos adicionais necessários.
+
+### Aula 4 — Finalização
+
+Defina testes, correções, melhorias visuais e preparação da versão final.
+
+O plano deve permitir que o aluno tenha um aplicativo funcionando progressivamente ao final de cada aula.
+
+## 17. Prompts para o GitHub Copilot
+
+Crie uma sequência de prompts para implementar o projeto utilizando o GitHub Copilot.
+
+Os prompts devem ser:
+
+* claros;
+* específicos;
+* independentes;
+* organizados em ordem de implementação.
+
+Cada prompt deve indicar:
+
+* objetivo;
+* arquivos envolvidos;
+* implementação esperada;
+* regras;
+* comportamento esperado.
+
+Divida a implementação em etapas para que o aluno consiga acompanhar a evolução do aplicativo.
+
+## 18. Testes
+
+Crie uma lista de testes que o estudante deverá realizar.
+
+Inclua:
+
+* testes das telas;
+* testes dos botões;
+* testes dos campos;
+* testes das regras;
+* testes de dados;
+* testes de situações inválidas;
+* testes de navegação.
+
+## 19. Checklist final
+
+Crie um checklist para verificar se o aplicativo está pronto para apresentação.
+
+## 20. Possíveis melhorias
+
+Sugira funcionalidades que poderiam ser adicionadas em uma futura versão do aplicativo.
+
+---
+
+# REGRAS PARA A DOCUMENTAÇÃO
+
+1. Não gere o código Java neste momento.
+2. Gere somente a documentação Markdown.
+3. Considere que o aluno possui conhecimentos de programação compatíveis com um curso técnico.
+4. Utilize Java para toda a implementação.
+5. Utilize XML para as interfaces.
+6. Explique conceitos importantes quando forem necessários.
+7. Evite soluções desnecessariamente complexas.
+8. Quando houver diferentes maneiras de implementar algo, indique a alternativa mais adequada para o projeto.
+9. Explore a ideia fornecida pelo aluno e proponha melhorias quando elas fizerem sentido.
+10. Não descaracterize a ideia original do aluno.
+11. Organize o projeto para que possa evoluir durante as quatro aulas.
+12. Ao final, o aluno deverá possuir um aplicativo funcional e apresentável.
+
+---
+
+# RESULTADO
+
+Entregue a documentação completa pronta para ser salva como:
+
+`PROJETO_APP_ANDROID.md`
+
+Essa documentação será posteriormente utilizada pelo estudante junto ao GitHub Copilot para realizar a implementação do aplicativo.

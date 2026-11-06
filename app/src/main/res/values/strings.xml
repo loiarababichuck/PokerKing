@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PokerKing</string>
+    <string name="title_dashboard">PokerKing</string>
+    <string name="label_games">Jogos</string>
+    <string name="label_total_profit">Lucro total</string>
+    <string name="label_best_win">Maior ganho</string>
+    <string name="label_biggest_loss">Maior perda</string>
+    <string name="label_player_name">Nome do jogador</string>
+    <string name="label_buy_in">Valor de compra</string>
+    <string name="label_cash_out">Valor final</string>
+    <string name="label_notes">Observações</string>
+    <string name="button_save">Salvar sessão</string>
+    <string name="button_clear">Limpar tudo</string>
+    <string name="title_history">Histórico</string>
+    <string name="session_summary">Compra: %1$s | Final: %2$s</string>
+    <string name="button_delete">Excluir</string>
+</resources>
